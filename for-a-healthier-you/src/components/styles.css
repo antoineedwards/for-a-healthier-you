@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hurricane&family=Yesteryear&display=swap');
+
+:root{
+    --primary: #1767d6;
+    --secondary: #f0f0f0;
+    --text: #333;
+}
+#navbar-container {
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar-title{
+    font-family: yesteryear;
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+#navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar-logo{
+    height: 60px;
+    padding: 10px;
+}
+
+li {
+    color: var(--primary);
+    float: left;
+    padding: 20px;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+    margin: 1rem;
+}
